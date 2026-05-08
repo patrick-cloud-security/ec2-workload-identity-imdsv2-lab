@@ -39,3 +39,9 @@ The IAM role trusts the EC2 service principal:
 
 ```hcl
 Service = "ec2.amazonaws.com"
+
+## Detection Follow-Up
+
+This lab also includes detection notes for investigating replayed EC2 role credentials in CloudTrail.
+
+[View detection notes](./detection-notes.md)
